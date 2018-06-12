@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="grid.css">
   <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <title>Twitter</title>
 </head>
 <body>
   <div class="container">
@@ -19,9 +19,10 @@
         <h3>@User</h3>
       </section>
       <section class="txt col-6">
-        <textarea id="tweetTxt" cols="30" rows="10" placeholder="¿Qué está pasando?" onkeypress="char()"></textarea>
+        <textarea id="tweetTxt" placeholder="¿Qué está pasando?" onkeypress="char()" onkeydown="count()" onkeyup="count()"></textarea>
         <div id="line"></div>
         <button id="tweetBtn">Tweet</button>
+        <input disabled size="3" value="140" id="counter"> 
       </section>
       <section class="message col-10">
         <div id="msg"></div>

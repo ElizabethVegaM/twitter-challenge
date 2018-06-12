@@ -1,4 +1,4 @@
-.container {
+body {
   background-color: #c0deed;
 }
 
@@ -50,12 +50,15 @@ header {
   background-color: #3cf;
   padding: 5px;
   border-radius: 15px;
-  float: right;
 }
 
 .message {
   width: 90%;
   margin: 25px auto;
-  background-color: #cceaf3; 
+  border-radius: 10px;
+}
+
+#counter {
+  float: right;
 }
 

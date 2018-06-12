@@ -1,0 +1,61 @@
+.container {
+  background-color: #c0deed;
+}
+
+header {
+  background-color: #3cf;
+  text-align: center;
+}
+
+#tweet {
+  margin: 0 15%;
+}
+
+.info {
+  margin: 10px 20px;
+  background-color: #cceaf3;
+  text-align: center;
+}
+
+.pic {
+  margin: 0 auto;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  background-color: #c4c4c4;
+}
+
+.txt {
+  width: 50%;
+  margin: 10px 20px;
+  background-color: #cceaf3;
+}
+
+#tweetTxt {
+  height: 50px;
+  width: 480px;
+  margin: 10px;
+  resize: none;
+}
+
+#line {
+  margin: 10px;
+  height: 3px;
+  width: 480px;
+  background-color: #0084b4;
+}
+
+#tweetBtn {
+  margin: 10px;
+  background-color: #3cf;
+  padding: 5px;
+  border-radius: 15px;
+  float: right;
+}
+
+.message {
+  width: 90%;
+  margin: 25px auto;
+  background-color: #cceaf3; 
+}
+
